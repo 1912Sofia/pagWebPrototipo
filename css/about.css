@@ -1,0 +1,269 @@
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #C00A09;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1-txt{
+    text-align: center;
+    font-size: 24px;
+}
+
+.line1{
+    flex-grow: 1;
+    height: 3px;
+    background-color: #C00A09;
+    margin-right: 8px;
+}
+
+.line2{
+    flex-grow: 1;
+    height: 3px;
+    background-color: #C00A09;
+    margin-left: 8px;
+}
+
+.description{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+}
+
+.description p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-top: 10px;
+}
+/*-------------slider-----------------*/
+
+.slider{
+    margin-right: 220px;
+    margin-left: 220px;
+}
+
+.container-slider{
+    width: 100%;
+    height: 660px;
+    overflow: hidden;
+    
+}
+
+.item-slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.item-slider-container{
+    width: 100%;
+    height: 100%;
+}
+
+.arrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows i:hover {
+    cursor: pointer;
+}
+
+#item-slider-1{
+    background-color: none;
+}
+
+#item-slider-2{
+    background-color: none;
+}
+
+#item-slider-3{
+    background-color: none;
+}
+
+.itemCarrouselArrows a i{
+    color: rgb(0, 0, 0);
+}
+
+/*----------IMAGENES----------*/
+
+.info-events{
+    background-color: #FAF298;
+    padding: 20px;
+    margin: 0px 200px 0px 200px;
+}
+
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
+}
+
+.about-image img{
+    max-width: 60%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-image:hover img{
+    transform: scale(1.2);
+}
+
+.about-content{
+    flex: 1;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+}
+
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-left: 0%;
+    color: #000000;
+    position: relative;
+}
+
+.about-content h2::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #C00A09;
+}
+
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: #000000;
+    margin-left: 0%;
+
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        padding: 0px;
+    }
+
+    .about{
+        padding: 0px; /*20*/
+        flex-direction: column;
+    }
+
+    .about-image{
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .about-content{
+        text-align: left;
+        margin-left: 0%;
+    }
+    .about-content p{
+        padding: 0px;
+        font-size: 16px;
+    }
+    /*
+    .about-content .read-more{
+        font-size: 16px;
+    }*/
+}
+
+/*-------HORARIO------------*/
+
+.horario{
+    padding-left: 55px;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    background-color: #C00A09;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.horario-info-container h2{
+    font-size: 65px;
+    color: #FAF298;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.horario-txt{
+    display: flex;
+    justify-content: space-between;
+}
+
+.txt{
+    color: #FFFFFF;
+}
+
+.txt h4{
+    font-size: 26px;
+    color: #FAF298;
+    margin-bottom: 30px;
+    padding-right: 55px;
+}
+
+.txt p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.links a{
+    display: inline-block;
+    min-height: 40px; 
+    width: 40px;
+    background-color: #ffffff;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #C00A09;
+    transition: all .5s ease;
+}
+  
+.links a:hover{
+    background-color:  #FAF298;
+    color: #000000;
+}
+
+  

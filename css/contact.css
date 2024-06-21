@@ -1,0 +1,219 @@
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.main-text{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: #C00A09;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.h1-txt{
+    text-align: center;
+    font-size: 24px;
+}
+
+.line1{
+    flex-grow: 1;
+    height: 3px;
+    background-color: #C00A09;
+    margin-right: 8px;
+}
+
+.line2{
+    flex-grow: 1;
+    height: 3px;
+    background-color: #C00A09;
+    margin-left: 8px;
+}
+
+/*-----------info contacto-----------*/
+
+.text-contact{
+    border: 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    display: grid;
+    text-align: left;
+    color: black;
+    padding-top: 20px;
+    grid-template-columns: 50% 50%;
+}
+
+.container-contact{
+    display: grid;
+}
+
+.text-contact{
+    margin: 20px;
+}
+
+.text-contact h2{
+    padding-bottom: 15px;
+}
+
+
+.info-links{
+    padding: 2px;
+}
+
+.info-links label{
+    text-align: left;
+    color: black;
+    font-size: 19px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.info-links label:hover{
+    transform: scale(1.1);
+}
+
+.info-links a{
+    display: inline-block;
+    min-height: 40px; 
+    width: 40px;
+    background-color: #C00A09;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:rgb(255, 255, 255);
+    transition: all .5s ease;
+  }
+  
+  .info-links a:hover{
+    background-color: #ffffff;
+    color: #C00A09;
+  }
+
+  .maps iframe{
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  .container-maps{
+    display: grid;
+  }
+
+@media (max-width: 768px) {
+    .text-contact{
+        grid-template-columns: 1fr;
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .maps {
+        width: 100%; 
+        height: 100%;
+        flex-direction: column;
+    }
+}
+/*------------formulario-------------*/
+
+.form-content{
+    background: linear-gradient(
+        50deg, 
+        #FAF298 50%,
+        #FAF298,
+    );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    width: 1000px;
+    border-radius: 25px;
+}
+
+.form-content h2{
+    color: #C00A09;
+    font-size: 40px;
+    margin-bottom: 25px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+
+}
+
+.form-content h2:hover{
+    transform: scale(1.1);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label{
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+input{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+input:hover{
+    transform: scale(1.1);
+}
+
+textarea{
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+textarea:hover{
+    transform: scale(1.1);
+}
+
+input, textarea{
+    padding: 17px 14px;
+    background-color: rgb(251, 245, 245);
+    border: 0;
+    font-size: 15px;
+    color: #C00A09;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus{
+    outline: 2px solid #C00A09;
+}
+
+.btn{
+    background-color: #C00A09;
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+}
+
+.btn{
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: #C00A09;
+}
+
+@media(max-width:991px){
+
+    .form-content{
+        width: 100%;
+    }
+
+    .form{
+        width: 100%;
+    }
+}
