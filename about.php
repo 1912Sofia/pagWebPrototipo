@@ -36,55 +36,6 @@
     ¡Ven y déjate seducir por nuestra dulce oferta!</p>
   </div>
 
-
-
-  <section class="slider">
-    <div class="container-slider">
-      <div class="item-slider" id="item-slider-1">
-          <div class="item-slider-container">
-            <img src="fotos paste/empleados.jpg" alt="" style="height: 100%; width: 100%; margin-left: 2px;">
-          </div>
-          <div class="arrows">
-              <a href="#item-slider-3">
-                <i class="fas fa-chevron-left"></i>
-              </a>
-              <a href="#item-slider-2">
-                <i class="fas fa-chevron-right"></i>
-              </a>
-          </div>
-      </div>
-      <div class="item-slider" id="item-slider-2">
-        <div class="item-slider-container">
-          <img src="fotos paste/rosca.jpg" alt="" style="height: 100%; width: 100%; margin-left: 2px;">
-        </div>
-        <div class="arrows">
-          <a href="#item-slider-1">
-            <i class="fas fa-chevron-left"></i>
-          </a>
-          <a href="#item-slider-3">
-            <i class="fas fa-chevron-right"></i>
-          </a>
-        </div>
-      </div>
-      <div class="item-slider" id="item-slider-3">
-        <div class="item-slider-container">
-          <img src="fotos paste/evento.jpg" alt="" style="height: 100%; width: 100%; margin-left: 2px;">
-        </div>
-          <div class="arrows">
-            <a href="#item-slider-2">
-              <i class="fas fa-chevron-left"></i>
-            </a>
-            <a href="#item-slider-1">
-              <i class="fas fa-chevron-right"></i>
-            </a>
-              </div>
-            </div>
-        </div>
-    </div>
-
-
-
-
     <section class="info-events">
       <div class="container">
         <section class="about">
